@@ -1,0 +1,6 @@
+<?xml version="1.0"?>
+<launch>
+    <node name="image_publisher" pkg="camera_read" type="test_image_publisher" output="screen"/>
+    <node name="image_subscriber" pkg="camera_read" type="test_image_subscriber" output="screen"/>
+</launch>
+

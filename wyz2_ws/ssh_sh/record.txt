@@ -1,0 +1,27 @@
+waiting for the image
+waiting for the image
+waiting for the image
+waiting for the image
+waiting for the image
+waiting for the image
+waiting for the image
+waiting for the image
+[ INFO] [1527515107.982545963]: I got raw_image
+the frame is 640 and 480
+waiting for the image
+[ INFO] [1527515107.997794105]: I got raw_image
+the frame is 640 and 480
+[ INFO] [1527515108.028860460]: I got raw_image
+the frame is 640 and 480
+[ INFO] [1527515108.060869697]: I got raw_image
+the frame is 640 and 480
+[ INFO] [1527515108.094978981]: I got raw_image
+the frame is 640 and 480
+[ INFO] [1527515108.129594548]: I got raw_image
+the frame is 640 and 480
+[ INFO] [1527515108.148724445]: I heared :[190.897400] [310.223877] [366.259705] [474.674988]
+Initial Bounding Box = x:190 y:310 h:175 w:164
+Created 0 bounding boxes
+Bounding box hull: 2147483647 2147483647 -2147483647 -2147483647
+Found 0 good boxes, 0 bad boxes
+Best Box: 0 0 0 0

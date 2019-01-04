@@ -1,0 +1,6 @@
+devel_space: /home/zq610/WYZ/dronet_ws/dronet/dronet_control/devel
+install: false
+install_space: /home/zq610/WYZ/dronet_ws/dronet/dronet_control/install
+profile: default
+source_space: /home/zq610/WYZ/dronet_ws/dronet/dronet_control/src
+workspace: /home/zq610/WYZ/dronet_ws/dronet/dronet_control

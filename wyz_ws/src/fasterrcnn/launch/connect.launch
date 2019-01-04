@@ -1,0 +1,12 @@
+<launch>
+	<arg name="tldArgs" value="-p /home/ubuntu/Desktop/parameters.yml -s /media/Ubuntu/Jetson/WYZ/messing/TestVideo.mp4"/>
+
+	<!-- run fasterrcnn -->
+	<node pkg="fasterrcnn" type="demo.py" name="demo" output="screen">
+	</node>
+	
+	<!-- run tld -->
+	<node pkg="tld" type="run_tld" name="run_tld" output="screen" args="$(arg tldArgs)">
+	</node>
+
+</launch>

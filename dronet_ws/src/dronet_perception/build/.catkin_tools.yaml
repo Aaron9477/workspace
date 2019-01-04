@@ -1,0 +1,6 @@
+devel_space: /home/zq610/WYZ/dronet_ws/dronet/dronet_perception/devel
+install: false
+install_space: /home/zq610/WYZ/dronet_ws/dronet/dronet_perception/install
+profile: default
+source_space: /home/zq610/WYZ/dronet_ws/dronet/dronet_perception/src
+workspace: /home/zq610/WYZ/dronet_ws/dronet/dronet_perception
