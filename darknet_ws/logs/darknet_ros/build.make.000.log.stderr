@@ -1,0 +1,502 @@
+[01m[K/home/zq610/WYZ/workspace/darknet_ws/src/darknet_ros/darknet/src/image.c:[m[K In function ‘[01m[Kload_image_cv[m[K’:
+[01m[K/home/zq610/WYZ/workspace/darknet_ws/src/darknet_ros/darknet/src/image.c:636:9:[m[K [01;35m[Kwarning: [m[Kignoring return value of ‘[01m[Ksystem[m[K’, declared with attribute warn_unused_result [-Wunused-result]
+         system(buff);
+[01;32m[K         ^[m[K
+[01m[K/home/zq610/WYZ/workspace/darknet_ws/src/darknet_ros/darknet/src/parser.c:[m[K In function ‘[01m[Kload_connected_weights[m[K’:
+[01m[K/home/zq610/WYZ/workspace/darknet_ws/src/darknet_ros/darknet/src/parser.c:1085:5:[m[K [01;35m[Kwarning: [m[Kignoring return value of ‘[01m[Kfread[m[K’, declared with attribute warn_unused_result [-Wunused-result]
+     fread(l.biases, sizeof(float), l.outputs, fp);
+[01;32m[K     ^[m[K
+[01m[K/home/zq610/WYZ/workspace/darknet_ws/src/darknet_ros/darknet/src/parser.c:1086:5:[m[K [01;35m[Kwarning: [m[Kignoring return value of ‘[01m[Kfread[m[K’, declared with attribute warn_unused_result [-Wunused-result]
+     fread(l.weights, sizeof(float), l.outputs*l.inputs, fp);
+[01;32m[K     ^[m[K
+[01m[K/home/zq610/WYZ/workspace/darknet_ws/src/darknet_ros/darknet/src/parser.c:1093:9:[m[K [01;35m[Kwarning: [m[Kignoring return value of ‘[01m[Kfread[m[K’, declared with attribute warn_unused_result [-Wunused-result]
+         fread(l.scales, sizeof(float), l.outputs, fp);
+[01;32m[K         ^[m[K
+[01m[K/home/zq610/WYZ/workspace/darknet_ws/src/darknet_ros/darknet/src/parser.c:1094:9:[m[K [01;35m[Kwarning: [m[Kignoring return value of ‘[01m[Kfread[m[K’, declared with attribute warn_unused_result [-Wunused-result]
+         fread(l.rolling_mean, sizeof(float), l.outputs, fp);
+[01;32m[K         ^[m[K
+[01m[K/home/zq610/WYZ/workspace/darknet_ws/src/darknet_ros/darknet/src/parser.c:1095:9:[m[K [01;35m[Kwarning: [m[Kignoring return value of ‘[01m[Kfread[m[K’, declared with attribute warn_unused_result [-Wunused-result]
+         fread(l.rolling_variance, sizeof(float), l.outputs, fp);
+[01;32m[K         ^[m[K
+[01m[K/home/zq610/WYZ/workspace/darknet_ws/src/darknet_ros/darknet/src/parser.c:[m[K In function ‘[01m[Kload_batchnorm_weights[m[K’:
+[01m[K/home/zq610/WYZ/workspace/darknet_ws/src/darknet_ros/darknet/src/parser.c:1109:5:[m[K [01;35m[Kwarning: [m[Kignoring return value of ‘[01m[Kfread[m[K’, declared with attribute warn_unused_result [-Wunused-result]
+     fread(l.scales, sizeof(float), l.c, fp);
+[01;32m[K     ^[m[K
+[01m[K/home/zq610/WYZ/workspace/darknet_ws/src/darknet_ros/darknet/src/parser.c:1110:5:[m[K [01;35m[Kwarning: [m[Kignoring return value of ‘[01m[Kfread[m[K’, declared with attribute warn_unused_result [-Wunused-result]
+     fread(l.rolling_mean, sizeof(float), l.c, fp);
+[01;32m[K     ^[m[K
+[01m[K/home/zq610/WYZ/workspace/darknet_ws/src/darknet_ros/darknet/src/parser.c:1111:5:[m[K [01;35m[Kwarning: [m[Kignoring return value of ‘[01m[Kfread[m[K’, declared with attribute warn_unused_result [-Wunused-result]
+     fread(l.rolling_variance, sizeof(float), l.c, fp);
+[01;32m[K     ^[m[K
+[01m[K/home/zq610/WYZ/workspace/darknet_ws/src/darknet_ros/darknet/src/parser.c:[m[K In function ‘[01m[Kload_convolutional_weights_binary[m[K’:
+[01m[K/home/zq610/WYZ/workspace/darknet_ws/src/darknet_ros/darknet/src/parser.c:1121:5:[m[K [01;35m[Kwarning: [m[Kignoring return value of ‘[01m[Kfread[m[K’, declared with attribute warn_unused_result [-Wunused-result]
+     fread(l.biases, sizeof(float), l.n, fp);
+[01;32m[K     ^[m[K
+[01m[K/home/zq610/WYZ/workspace/darknet_ws/src/darknet_ros/darknet/src/parser.c:1123:9:[m[K [01;35m[Kwarning: [m[Kignoring return value of ‘[01m[Kfread[m[K’, declared with attribute warn_unused_result [-Wunused-result]
+         fread(l.scales, sizeof(float), l.n, fp);
+[01;32m[K         ^[m[K
+[01m[K/home/zq610/WYZ/workspace/darknet_ws/src/darknet_ros/darknet/src/parser.c:1124:9:[m[K [01;35m[Kwarning: [m[Kignoring return value of ‘[01m[Kfread[m[K’, declared with attribute warn_unused_result [-Wunused-result]
+         fread(l.rolling_mean, sizeof(float), l.n, fp);
+[01;32m[K         ^[m[K
+[01m[K/home/zq610/WYZ/workspace/darknet_ws/src/darknet_ros/darknet/src/parser.c:1125:9:[m[K [01;35m[Kwarning: [m[Kignoring return value of ‘[01m[Kfread[m[K’, declared with attribute warn_unused_result [-Wunused-result]
+         fread(l.rolling_variance, sizeof(float), l.n, fp);
+[01;32m[K         ^[m[K
+[01m[K/home/zq610/WYZ/workspace/darknet_ws/src/darknet_ros/darknet/src/parser.c:1131:9:[m[K [01;35m[Kwarning: [m[Kignoring return value of ‘[01m[Kfread[m[K’, declared with attribute warn_unused_result [-Wunused-result]
+         fread(&mean, sizeof(float), 1, fp);
+[01;32m[K         ^[m[K
+[01m[K/home/zq610/WYZ/workspace/darknet_ws/src/darknet_ros/darknet/src/parser.c:1135:13:[m[K [01;35m[Kwarning: [m[Kignoring return value of ‘[01m[Kfread[m[K’, declared with attribute warn_unused_result [-Wunused-result]
+             fread(&c, sizeof(char), 1, fp);
+[01;32m[K             ^[m[K
+[01m[K/home/zq610/WYZ/workspace/darknet_ws/src/darknet_ros/darknet/src/parser.c:[m[K In function ‘[01m[Kload_convolutional_weights[m[K’:
+[01m[K/home/zq610/WYZ/workspace/darknet_ws/src/darknet_ros/darknet/src/parser.c:1156:5:[m[K [01;35m[Kwarning: [m[Kignoring return value of ‘[01m[Kfread[m[K’, declared with attribute warn_unused_result [-Wunused-result]
+     fread(l.biases, sizeof(float), l.n, fp);
+[01;32m[K     ^[m[K
+[01m[K/home/zq610/WYZ/workspace/darknet_ws/src/darknet_ros/darknet/src/parser.c:1158:9:[m[K [01;35m[Kwarning: [m[Kignoring return value of ‘[01m[Kfread[m[K’, declared with attribute warn_unused_result [-Wunused-result]
+         fread(l.scales, sizeof(float), l.n, fp);
+[01;32m[K         ^[m[K
+[01m[K/home/zq610/WYZ/workspace/darknet_ws/src/darknet_ros/darknet/src/parser.c:1159:9:[m[K [01;35m[Kwarning: [m[Kignoring return value of ‘[01m[Kfread[m[K’, declared with attribute warn_unused_result [-Wunused-result]
+         fread(l.rolling_mean, sizeof(float), l.n, fp);
+[01;32m[K         ^[m[K
+[01m[K/home/zq610/WYZ/workspace/darknet_ws/src/darknet_ros/darknet/src/parser.c:1160:9:[m[K [01;35m[Kwarning: [m[Kignoring return value of ‘[01m[Kfread[m[K’, declared with attribute warn_unused_result [-Wunused-result]
+         fread(l.rolling_variance, sizeof(float), l.n, fp);
+[01;32m[K         ^[m[K
+[01m[K/home/zq610/WYZ/workspace/darknet_ws/src/darknet_ros/darknet/src/parser.c:1188:5:[m[K [01;35m[Kwarning: [m[Kignoring return value of ‘[01m[Kfread[m[K’, declared with attribute warn_unused_result [-Wunused-result]
+     fread(l.weights, sizeof(float), num, fp);
+[01;32m[K     ^[m[K
+[01m[K/home/zq610/WYZ/workspace/darknet_ws/src/darknet_ros/darknet/src/parser.c:[m[K In function ‘[01m[Kload_weights_upto[m[K’:
+[01m[K/home/zq610/WYZ/workspace/darknet_ws/src/darknet_ros/darknet/src/parser.c:1217:5:[m[K [01;35m[Kwarning: [m[Kignoring return value of ‘[01m[Kfread[m[K’, declared with attribute warn_unused_result [-Wunused-result]
+     fread(&major, sizeof(int), 1, fp);
+[01;32m[K     ^[m[K
+[01m[K/home/zq610/WYZ/workspace/darknet_ws/src/darknet_ros/darknet/src/parser.c:1218:5:[m[K [01;35m[Kwarning: [m[Kignoring return value of ‘[01m[Kfread[m[K’, declared with attribute warn_unused_result [-Wunused-result]
+     fread(&minor, sizeof(int), 1, fp);
+[01;32m[K     ^[m[K
+[01m[K/home/zq610/WYZ/workspace/darknet_ws/src/darknet_ros/darknet/src/parser.c:1219:5:[m[K [01;35m[Kwarning: [m[Kignoring return value of ‘[01m[Kfread[m[K’, declared with attribute warn_unused_result [-Wunused-result]
+     fread(&revision, sizeof(int), 1, fp);
+[01;32m[K     ^[m[K
+[01m[K/home/zq610/WYZ/workspace/darknet_ws/src/darknet_ros/darknet/src/parser.c:1221:9:[m[K [01;35m[Kwarning: [m[Kignoring return value of ‘[01m[Kfread[m[K’, declared with attribute warn_unused_result [-Wunused-result]
+         fread(net->seen, sizeof(size_t), 1, fp);
+[01;32m[K         ^[m[K
+[01m[K/home/zq610/WYZ/workspace/darknet_ws/src/darknet_ros/darknet/src/parser.c:1224:9:[m[K [01;35m[Kwarning: [m[Kignoring return value of ‘[01m[Kfread[m[K’, declared with attribute warn_unused_result [-Wunused-result]
+         fread(&iseen, sizeof(int), 1, fp);
+[01;32m[K         ^[m[K
+[01m[K/home/zq610/WYZ/workspace/darknet_ws/src/darknet_ros/darknet/src/parser.c:1279:13:[m[K [01;35m[Kwarning: [m[Kignoring return value of ‘[01m[Kfread[m[K’, declared with attribute warn_unused_result [-Wunused-result]
+             fread(l.biases, sizeof(float), l.outputs, fp);
+[01;32m[K             ^[m[K
+[01m[K/home/zq610/WYZ/workspace/darknet_ws/src/darknet_ros/darknet/src/parser.c:1280:13:[m[K [01;35m[Kwarning: [m[Kignoring return value of ‘[01m[Kfread[m[K’, declared with attribute warn_unused_result [-Wunused-result]
+             fread(l.weights, sizeof(float), size, fp);
+[01;32m[K             ^[m[K
+[01m[K/home/zq610/WYZ/workspace/darknet_ws/src/darknet_ros/darknet/src/data.c:[m[K In function ‘[01m[Kload_regression_labels_paths[m[K’:
+[01m[K/home/zq610/WYZ/workspace/darknet_ws/src/darknet_ros/darknet/src/data.c:574:13:[m[K [01;35m[Kwarning: [m[Kignoring return value of ‘[01m[Kfscanf[m[K’, declared with attribute warn_unused_result [-Wunused-result]
+             fscanf(file, "%f", &(y.vals[i][j]));
+[01;32m[K             ^[m[K
+[01m[K/home/zq610/WYZ/workspace/darknet_ws/src/darknet_ros/darknet/src/data.c:[m[K In function ‘[01m[Kload_cifar10_data[m[K’:
+[01m[K/home/zq610/WYZ/workspace/darknet_ws/src/darknet_ros/darknet/src/data.c:1354:9:[m[K [01;35m[Kwarning: [m[Kignoring return value of ‘[01m[Kfread[m[K’, declared with attribute warn_unused_result [-Wunused-result]
+         fread(bytes, 1, 3073, fp);
+[01;32m[K         ^[m[K
+[01m[K/home/zq610/WYZ/workspace/darknet_ws/src/darknet_ros/darknet/src/data.c:[m[K In function ‘[01m[Kload_all_cifar10[m[K’:
+[01m[K/home/zq610/WYZ/workspace/darknet_ws/src/darknet_ros/darknet/src/data.c:1417:13:[m[K [01;35m[Kwarning: [m[Kignoring return value of ‘[01m[Kfread[m[K’, declared with attribute warn_unused_result [-Wunused-result]
+             fread(bytes, 1, 3073, fp);
+[01;32m[K             ^[m[K
+[01m[K/home/zq610/WYZ/workspace/darknet_ws/src/darknet_ros/darknet/src/utils.c:[m[K In function ‘[01m[Kread_file[m[K’:
+[01m[K/home/zq610/WYZ/workspace/darknet_ws/src/darknet_ros/darknet/src/utils.c:270:5:[m[K [01;35m[Kwarning: [m[Kignoring return value of ‘[01m[Kfread[m[K’, declared with attribute warn_unused_result [-Wunused-result]
+     fread(text, 1, size, fp);
+[01;32m[K     ^[m[K
+[01m[K/home/zq610/WYZ/workspace/darknet_ws/src/darknet_ros/darknet/src/utils.c:[m[K In function ‘[01m[Kfgetl[m[K’:
+[01m[K/home/zq610/WYZ/workspace/darknet_ws/src/darknet_ros/darknet/src/utils.c:358:9:[m[K [01;35m[Kwarning: [m[Kignoring return value of ‘[01m[Kfgets[m[K’, declared with attribute warn_unused_result [-Wunused-result]
+         fgets(&line[curr], readsize, fp);
+[01;32m[K         ^[m[K
+In file included from [01m[K/home/zq610/WYZ/download/env/boost_1_58_0/boost/smart_ptr/shared_ptr.hpp:28:0[m[K,
+                 from [01m[K/home/zq610/WYZ/download/env/boost_1_58_0/boost/shared_ptr.hpp:17[m[K,
+                 from [01m[K/home/zq610/WYZ/download/env/boost_1_58_0/boost/format/alt_sstream.hpp:21[m[K,
+                 from [01m[K/home/zq610/WYZ/download/env/boost_1_58_0/boost/format/internals.hpp:23[m[K,
+                 from [01m[K/home/zq610/WYZ/download/env/boost_1_58_0/boost/format.hpp:38[m[K,
+                 from [01m[K/home/zq610/WYZ/download/env/boost_1_58_0/boost/math/policies/error_handling.hpp:31[m[K,
+                 from [01m[K/home/zq610/WYZ/download/env/boost_1_58_0/boost/math/special_functions/round.hpp:14[m[K,
+                 from [01m[K/opt/ros/kinetic/include/ros/time.h:58[m[K,
+                 from [01m[K/opt/ros/kinetic/include/ros/ros.h:38[m[K,
+                 from [01m[K/home/zq610/WYZ/workspace/darknet_ws/src/darknet_ros/darknet_ros/include/darknet_ros/YoloObjectDetector.hpp:21[m[K,
+                 from [01m[K/home/zq610/WYZ/workspace/darknet_ws/src/darknet_ros/darknet_ros/src/YoloObjectDetector.cpp:10[m[K:
+[01m[K/home/zq610/WYZ/download/env/boost_1_58_0/boost/smart_ptr/detail/shared_count.hpp:395:33:[m[K [01;35m[Kwarning: [m[K‘[01m[Ktemplate<class> class std::auto_ptr[m[K’ is deprecated [-Wdeprecated-declarations]
+     explicit shared_count( std::auto_ptr<Y> & r ): pi_( new sp_counted_impl_p<Y>( r.get() ) )
+[01;32m[K                                 ^[m[K
+In file included from [01m[K/usr/include/c++/5/memory:81:0[m[K,
+                 from [01m[K/usr/include/c++/5/thread:40[m[K,
+                 from [01m[K/home/zq610/WYZ/workspace/darknet_ws/src/darknet_ros/darknet_ros/include/darknet_ros/YoloObjectDetector.hpp:17[m[K,
+                 from [01m[K/home/zq610/WYZ/workspace/darknet_ws/src/darknet_ros/darknet_ros/src/YoloObjectDetector.cpp:10[m[K:
+[01m[K/usr/include/c++/5/bits/unique_ptr.h:49:28:[m[K [01;36m[Knote: [m[Kdeclared here
+   template<typename> class auto_ptr;
+[01;32m[K                            ^[m[K
+In file included from [01m[K/home/zq610/WYZ/download/env/boost_1_58_0/boost/shared_ptr.hpp:17:0[m[K,
+                 from [01m[K/home/zq610/WYZ/download/env/boost_1_58_0/boost/format/alt_sstream.hpp:21[m[K,
+                 from [01m[K/home/zq610/WYZ/download/env/boost_1_58_0/boost/format/internals.hpp:23[m[K,
+                 from [01m[K/home/zq610/WYZ/download/env/boost_1_58_0/boost/format.hpp:38[m[K,
+                 from [01m[K/home/zq610/WYZ/download/env/boost_1_58_0/boost/math/policies/error_handling.hpp:31[m[K,
+                 from [01m[K/home/zq610/WYZ/download/env/boost_1_58_0/boost/math/special_functions/round.hpp:14[m[K,
+                 from [01m[K/opt/ros/kinetic/include/ros/time.h:58[m[K,
+                 from [01m[K/opt/ros/kinetic/include/ros/ros.h:38[m[K,
+                 from [01m[K/home/zq610/WYZ/workspace/darknet_ws/src/darknet_ros/darknet_ros/include/darknet_ros/YoloObjectDetector.hpp:21[m[K,
+                 from [01m[K/home/zq610/WYZ/workspace/darknet_ws/src/darknet_ros/darknet_ros/src/YoloObjectDetector.cpp:10[m[K:
+[01m[K/home/zq610/WYZ/download/env/boost_1_58_0/boost/smart_ptr/shared_ptr.hpp:242:65:[m[K [01;35m[Kwarning: [m[K‘[01m[Ktemplate<class> class std::auto_ptr[m[K’ is deprecated [-Wdeprecated-declarations]
+ template< class T, class R > struct sp_enable_if_auto_ptr< std::auto_ptr< T >, R >
+[01;32m[K                                                                 ^[m[K
+In file included from [01m[K/usr/include/c++/5/memory:81:0[m[K,
+                 from [01m[K/usr/include/c++/5/thread:40[m[K,
+                 from [01m[K/home/zq610/WYZ/workspace/darknet_ws/src/darknet_ros/darknet_ros/include/darknet_ros/YoloObjectDetector.hpp:17[m[K,
+                 from [01m[K/home/zq610/WYZ/workspace/darknet_ws/src/darknet_ros/darknet_ros/src/YoloObjectDetector.cpp:10[m[K:
+[01m[K/usr/include/c++/5/bits/unique_ptr.h:49:28:[m[K [01;36m[Knote: [m[Kdeclared here
+   template<typename> class auto_ptr;
+[01;32m[K                            ^[m[K
+In file included from [01m[K/home/zq610/WYZ/download/env/boost_1_58_0/boost/shared_ptr.hpp:17:0[m[K,
+                 from [01m[K/home/zq610/WYZ/download/env/boost_1_58_0/boost/format/alt_sstream.hpp:21[m[K,
+                 from [01m[K/home/zq610/WYZ/download/env/boost_1_58_0/boost/format/internals.hpp:23[m[K,
+                 from [01m[K/home/zq610/WYZ/download/env/boost_1_58_0/boost/format.hpp:38[m[K,
+                 from [01m[K/home/zq610/WYZ/download/env/boost_1_58_0/boost/math/policies/error_handling.hpp:31[m[K,
+                 from [01m[K/home/zq610/WYZ/download/env/boost_1_58_0/boost/math/special_functions/round.hpp:14[m[K,
+                 from [01m[K/opt/ros/kinetic/include/ros/time.h:58[m[K,
+                 from [01m[K/opt/ros/kinetic/include/ros/ros.h:38[m[K,
+                 from [01m[K/home/zq610/WYZ/workspace/darknet_ws/src/darknet_ros/darknet_ros/include/darknet_ros/YoloObjectDetector.hpp:21[m[K,
+                 from [01m[K/home/zq610/WYZ/workspace/darknet_ws/src/darknet_ros/darknet_ros/src/YoloObjectDetector.cpp:10[m[K:
+[01m[K/home/zq610/WYZ/download/env/boost_1_58_0/boost/smart_ptr/shared_ptr.hpp:441:31:[m[K [01;35m[Kwarning: [m[K‘[01m[Ktemplate<class> class std::auto_ptr[m[K’ is deprecated [-Wdeprecated-declarations]
+     explicit shared_ptr( std::auto_ptr<Y> & r ): px(r.get()), pn()
+[01;32m[K                               ^[m[K
+In file included from [01m[K/usr/include/c++/5/memory:81:0[m[K,
+                 from [01m[K/usr/include/c++/5/thread:40[m[K,
+                 from [01m[K/home/zq610/WYZ/workspace/darknet_ws/src/darknet_ros/darknet_ros/include/darknet_ros/YoloObjectDetector.hpp:17[m[K,
+                 from [01m[K/home/zq610/WYZ/workspace/darknet_ws/src/darknet_ros/darknet_ros/src/YoloObjectDetector.cpp:10[m[K:
+[01m[K/usr/include/c++/5/bits/unique_ptr.h:49:28:[m[K [01;36m[Knote: [m[Kdeclared here
+   template<typename> class auto_ptr;
+[01;32m[K                            ^[m[K
+In file included from [01m[K/home/zq610/WYZ/download/env/boost_1_58_0/boost/shared_ptr.hpp:17:0[m[K,
+                 from [01m[K/home/zq610/WYZ/download/env/boost_1_58_0/boost/format/alt_sstream.hpp:21[m[K,
+                 from [01m[K/home/zq610/WYZ/download/env/boost_1_58_0/boost/format/internals.hpp:23[m[K,
+                 from [01m[K/home/zq610/WYZ/download/env/boost_1_58_0/boost/format.hpp:38[m[K,
+                 from [01m[K/home/zq610/WYZ/download/env/boost_1_58_0/boost/math/policies/error_handling.hpp:31[m[K,
+                 from [01m[K/home/zq610/WYZ/download/env/boost_1_58_0/boost/math/special_functions/round.hpp:14[m[K,
+                 from [01m[K/opt/ros/kinetic/include/ros/time.h:58[m[K,
+                 from [01m[K/opt/ros/kinetic/include/ros/ros.h:38[m[K,
+                 from [01m[K/home/zq610/WYZ/workspace/darknet_ws/src/darknet_ros/darknet_ros/include/darknet_ros/YoloObjectDetector.hpp:21[m[K,
+                 from [01m[K/home/zq610/WYZ/workspace/darknet_ws/src/darknet_ros/darknet_ros/src/YoloObjectDetector.cpp:10[m[K:
+[01m[K/home/zq610/WYZ/download/env/boost_1_58_0/boost/smart_ptr/shared_ptr.hpp:454:22:[m[K [01;35m[Kwarning: [m[K‘[01m[Ktemplate<class> class std::auto_ptr[m[K’ is deprecated [-Wdeprecated-declarations]
+     shared_ptr( std::auto_ptr<Y> && r ): px(r.get()), pn()
+[01;32m[K                      ^[m[K
+In file included from [01m[K/usr/include/c++/5/memory:81:0[m[K,
+                 from [01m[K/usr/include/c++/5/thread:40[m[K,
+                 from [01m[K/home/zq610/WYZ/workspace/darknet_ws/src/darknet_ros/darknet_ros/include/darknet_ros/YoloObjectDetector.hpp:17[m[K,
+                 from [01m[K/home/zq610/WYZ/workspace/darknet_ws/src/darknet_ros/darknet_ros/src/YoloObjectDetector.cpp:10[m[K:
+[01m[K/usr/include/c++/5/bits/unique_ptr.h:49:28:[m[K [01;36m[Knote: [m[Kdeclared here
+   template<typename> class auto_ptr;
+[01;32m[K                            ^[m[K
+In file included from [01m[K/home/zq610/WYZ/download/env/boost_1_58_0/boost/shared_ptr.hpp:17:0[m[K,
+                 from [01m[K/home/zq610/WYZ/download/env/boost_1_58_0/boost/format/alt_sstream.hpp:21[m[K,
+                 from [01m[K/home/zq610/WYZ/download/env/boost_1_58_0/boost/format/internals.hpp:23[m[K,
+                 from [01m[K/home/zq610/WYZ/download/env/boost_1_58_0/boost/format.hpp:38[m[K,
+                 from [01m[K/home/zq610/WYZ/download/env/boost_1_58_0/boost/math/policies/error_handling.hpp:31[m[K,
+                 from [01m[K/home/zq610/WYZ/download/env/boost_1_58_0/boost/math/special_functions/round.hpp:14[m[K,
+                 from [01m[K/opt/ros/kinetic/include/ros/time.h:58[m[K,
+                 from [01m[K/opt/ros/kinetic/include/ros/ros.h:38[m[K,
+                 from [01m[K/home/zq610/WYZ/workspace/darknet_ws/src/darknet_ros/darknet_ros/include/darknet_ros/YoloObjectDetector.hpp:21[m[K,
+                 from [01m[K/home/zq610/WYZ/workspace/darknet_ws/src/darknet_ros/darknet_ros/src/YoloObjectDetector.cpp:10[m[K:
+[01m[K/home/zq610/WYZ/download/env/boost_1_58_0/boost/smart_ptr/shared_ptr.hpp:520:34:[m[K [01;35m[Kwarning: [m[K‘[01m[Ktemplate<class> class std::auto_ptr[m[K’ is deprecated [-Wdeprecated-declarations]
+     shared_ptr & operator=( std::auto_ptr<Y> & r )
+[01;32m[K                                  ^[m[K
+In file included from [01m[K/usr/include/c++/5/memory:81:0[m[K,
+                 from [01m[K/usr/include/c++/5/thread:40[m[K,
+                 from [01m[K/home/zq610/WYZ/workspace/darknet_ws/src/darknet_ros/darknet_ros/include/darknet_ros/YoloObjectDetector.hpp:17[m[K,
+                 from [01m[K/home/zq610/WYZ/workspace/darknet_ws/src/darknet_ros/darknet_ros/src/YoloObjectDetector.cpp:10[m[K:
+[01m[K/usr/include/c++/5/bits/unique_ptr.h:49:28:[m[K [01;36m[Knote: [m[Kdeclared here
+   template<typename> class auto_ptr;
+[01;32m[K                            ^[m[K
+In file included from [01m[K/home/zq610/WYZ/download/env/boost_1_58_0/boost/shared_ptr.hpp:17:0[m[K,
+                 from [01m[K/home/zq610/WYZ/download/env/boost_1_58_0/boost/format/alt_sstream.hpp:21[m[K,
+                 from [01m[K/home/zq610/WYZ/download/env/boost_1_58_0/boost/format/internals.hpp:23[m[K,
+                 from [01m[K/home/zq610/WYZ/download/env/boost_1_58_0/boost/format.hpp:38[m[K,
+                 from [01m[K/home/zq610/WYZ/download/env/boost_1_58_0/boost/math/policies/error_handling.hpp:31[m[K,
+                 from [01m[K/home/zq610/WYZ/download/env/boost_1_58_0/boost/math/special_functions/round.hpp:14[m[K,
+                 from [01m[K/opt/ros/kinetic/include/ros/time.h:58[m[K,
+                 from [01m[K/opt/ros/kinetic/include/ros/ros.h:38[m[K,
+                 from [01m[K/home/zq610/WYZ/workspace/darknet_ws/src/darknet_ros/darknet_ros/include/darknet_ros/YoloObjectDetector.hpp:21[m[K,
+                 from [01m[K/home/zq610/WYZ/workspace/darknet_ws/src/darknet_ros/darknet_ros/src/YoloObjectDetector.cpp:10[m[K:
+[01m[K/home/zq610/WYZ/download/env/boost_1_58_0/boost/smart_ptr/shared_ptr.hpp:529:34:[m[K [01;35m[Kwarning: [m[K‘[01m[Ktemplate<class> class std::auto_ptr[m[K’ is deprecated [-Wdeprecated-declarations]
+     shared_ptr & operator=( std::auto_ptr<Y> && r )
+[01;32m[K                                  ^[m[K
+In file included from [01m[K/usr/include/c++/5/memory:81:0[m[K,
+                 from [01m[K/usr/include/c++/5/thread:40[m[K,
+                 from [01m[K/home/zq610/WYZ/workspace/darknet_ws/src/darknet_ros/darknet_ros/include/darknet_ros/YoloObjectDetector.hpp:17[m[K,
+                 from [01m[K/home/zq610/WYZ/workspace/darknet_ws/src/darknet_ros/darknet_ros/src/YoloObjectDetector.cpp:10[m[K:
+[01m[K/usr/include/c++/5/bits/unique_ptr.h:49:28:[m[K [01;36m[Knote: [m[Kdeclared here
+   template<typename> class auto_ptr;
+[01;32m[K                            ^[m[K
+In file included from [01m[K/home/zq610/WYZ/download/env/boost_1_58_0/boost/shared_ptr.hpp:17:0[m[K,
+                 from [01m[K/home/zq610/WYZ/download/env/boost_1_58_0/boost/format/alt_sstream.hpp:21[m[K,
+                 from [01m[K/home/zq610/WYZ/download/env/boost_1_58_0/boost/format/internals.hpp:23[m[K,
+                 from [01m[K/home/zq610/WYZ/download/env/boost_1_58_0/boost/format.hpp:38[m[K,
+                 from [01m[K/home/zq610/WYZ/download/env/boost_1_58_0/boost/math/policies/error_handling.hpp:31[m[K,
+                 from [01m[K/home/zq610/WYZ/download/env/boost_1_58_0/boost/math/special_functions/round.hpp:14[m[K,
+                 from [01m[K/opt/ros/kinetic/include/ros/time.h:58[m[K,
+                 from [01m[K/opt/ros/kinetic/include/ros/ros.h:38[m[K,
+                 from [01m[K/home/zq610/WYZ/workspace/darknet_ws/src/darknet_ros/darknet_ros/include/darknet_ros/YoloObjectDetector.hpp:21[m[K,
+                 from [01m[K/home/zq610/WYZ/workspace/darknet_ws/src/darknet_ros/darknet_ros/src/YoloObjectDetector.cpp:10[m[K:
+[01m[K/home/zq610/WYZ/download/env/boost_1_58_0/boost/smart_ptr/shared_ptr.hpp:[m[K In member function ‘[01m[Kboost::shared_ptr<T>& boost::shared_ptr<T>::operator=(std::auto_ptr<_Up>&&)[m[K’:
+[01m[K/home/zq610/WYZ/download/env/boost_1_58_0/boost/smart_ptr/shared_ptr.hpp:531:38:[m[K [01;35m[Kwarning: [m[K‘[01m[Ktemplate<class> class std::auto_ptr[m[K’ is deprecated [-Wdeprecated-declarations]
+         this_type( static_cast< std::auto_ptr<Y> && >( r ) ).swap( *this );
+[01;32m[K                                      ^[m[K
+In file included from [01m[K/usr/include/c++/5/memory:81:0[m[K,
+                 from [01m[K/usr/include/c++/5/thread:40[m[K,
+                 from [01m[K/home/zq610/WYZ/workspace/darknet_ws/src/darknet_ros/darknet_ros/include/darknet_ros/YoloObjectDetector.hpp:17[m[K,
+                 from [01m[K/home/zq610/WYZ/workspace/darknet_ws/src/darknet_ros/darknet_ros/src/YoloObjectDetector.cpp:10[m[K:
+[01m[K/usr/include/c++/5/bits/unique_ptr.h:49:28:[m[K [01;36m[Knote: [m[Kdeclared here
+   template<typename> class auto_ptr;
+[01;32m[K                            ^[m[K
+In file included from [01m[K/home/zq610/WYZ/download/env/boost_1_58_0/boost/bind/mem_fn.hpp:25:0[m[K,
+                 from [01m[K/home/zq610/WYZ/download/env/boost_1_58_0/boost/mem_fn.hpp:22[m[K,
+                 from [01m[K/home/zq610/WYZ/download/env/boost_1_58_0/boost/function/detail/prologue.hpp:18[m[K,
+                 from [01m[K/home/zq610/WYZ/download/env/boost_1_58_0/boost/function.hpp:24[m[K,
+                 from [01m[K/opt/ros/kinetic/include/ros/forwards.h:40[m[K,
+                 from [01m[K/opt/ros/kinetic/include/ros/common.h:37[m[K,
+                 from [01m[K/opt/ros/kinetic/include/ros/ros.h:43[m[K,
+                 from [01m[K/home/zq610/WYZ/workspace/darknet_ws/src/darknet_ros/darknet_ros/include/darknet_ros/YoloObjectDetector.hpp:21[m[K,
+                 from [01m[K/home/zq610/WYZ/workspace/darknet_ws/src/darknet_ros/darknet_ros/src/YoloObjectDetector.cpp:10[m[K:
+[01m[K/home/zq610/WYZ/download/env/boost_1_58_0/boost/get_pointer.hpp:[m[K At global scope:
+[01m[K/home/zq610/WYZ/download/env/boost_1_58_0/boost/get_pointer.hpp:27:40:[m[K [01;35m[Kwarning: [m[K‘[01m[Ktemplate<class> class std::auto_ptr[m[K’ is deprecated [-Wdeprecated-declarations]
+ template<class T> T * get_pointer(std::auto_ptr<T> const& p)
+[01;32m[K                                        ^[m[K
+In file included from [01m[K/usr/include/c++/5/memory:81:0[m[K,
+                 from [01m[K/usr/include/c++/5/thread:40[m[K,
+                 from [01m[K/home/zq610/WYZ/workspace/darknet_ws/src/darknet_ros/darknet_ros/include/darknet_ros/YoloObjectDetector.hpp:17[m[K,
+                 from [01m[K/home/zq610/WYZ/workspace/darknet_ws/src/darknet_ros/darknet_ros/src/YoloObjectDetector.cpp:10[m[K:
+[01m[K/usr/include/c++/5/bits/unique_ptr.h:49:28:[m[K [01;36m[Knote: [m[Kdeclared here
+   template<typename> class auto_ptr;
+[01;32m[K                            ^[m[K
+[01m[K/home/zq610/WYZ/workspace/darknet_ws/src/darknet_ros/darknet/examples/go.c:[m[K In function ‘[01m[Kengine_go[m[K’:
+[01m[K/home/zq610/WYZ/workspace/darknet_ws/src/darknet_ros/darknet/examples/go.c:844:9:[m[K [01;35m[Kwarning: [m[Kignoring return value of ‘[01m[Kscanf[m[K’, declared with attribute warn_unused_result [-Wunused-result]
+         scanf("%s", buff);
+[01;32m[K         ^[m[K
+[01m[K/home/zq610/WYZ/workspace/darknet_ws/src/darknet_ros/darknet/examples/go.c:861:13:[m[K [01;35m[Kwarning: [m[Kignoring return value of ‘[01m[Kscanf[m[K’, declared with attribute warn_unused_result [-Wunused-result]
+             scanf("%d %d %d", &main_time, &byo_yomi_time, &byo_yomi_stones);
+[01;32m[K             ^[m[K
+[01m[K/home/zq610/WYZ/workspace/darknet_ws/src/darknet_ros/darknet/examples/go.c:867:13:[m[K [01;35m[Kwarning: [m[Kignoring return value of ‘[01m[Kscanf[m[K’, declared with attribute warn_unused_result [-Wunused-result]
+             scanf("%s %d %d", color, &time, &stones);
+[01;32m[K             ^[m[K
+[01m[K/home/zq610/WYZ/workspace/darknet_ws/src/darknet_ros/darknet/examples/go.c:884:13:[m[K [01;35m[Kwarning: [m[Kignoring return value of ‘[01m[Kscanf[m[K’, declared with attribute warn_unused_result [-Wunused-result]
+             scanf("%s", comm);
+[01;32m[K             ^[m[K
+[01m[K/home/zq610/WYZ/workspace/darknet_ws/src/darknet_ros/darknet/examples/go.c:908:13:[m[K [01;35m[Kwarning: [m[Kignoring return value of ‘[01m[Kscanf[m[K’, declared with attribute warn_unused_result [-Wunused-result]
+             scanf("%d", &boardsize);
+[01;32m[K             ^[m[K
+[01m[K/home/zq610/WYZ/workspace/darknet_ws/src/darknet_ros/darknet/examples/go.c:921:13:[m[K [01;35m[Kwarning: [m[Kignoring return value of ‘[01m[Kscanf[m[K’, declared with attribute warn_unused_result [-Wunused-result]
+             scanf("%d", &handicap);
+[01;32m[K             ^[m[K
+[01m[K/home/zq610/WYZ/workspace/darknet_ws/src/darknet_ros/darknet/examples/go.c:938:13:[m[K [01;35m[Kwarning: [m[Kignoring return value of ‘[01m[Kscanf[m[K’, declared with attribute warn_unused_result [-Wunused-result]
+             scanf("%f", &komi);
+[01;32m[K             ^[m[K
+[01m[K/home/zq610/WYZ/workspace/darknet_ws/src/darknet_ros/darknet/examples/go.c:949:17:[m[K [01;35m[Kwarning: [m[Kignoring return value of ‘[01m[Kscanf[m[K’, declared with attribute warn_unused_result [-Wunused-result]
+                 scanf("%s ", color);
+[01;32m[K                 ^[m[K
+[01m[K/home/zq610/WYZ/workspace/darknet_ws/src/darknet_ros/darknet/examples/go.c:951:17:[m[K [01;35m[Kwarning: [m[Kignoring return value of ‘[01m[Kscanf[m[K’, declared with attribute warn_unused_result [-Wunused-result]
+                 scanf(" ");
+[01;32m[K                 ^[m[K
+[01m[K/home/zq610/WYZ/workspace/darknet_ws/src/darknet_ros/darknet/examples/go.c:995:17:[m[K [01;35m[Kwarning: [m[Kignoring return value of ‘[01m[Kscanf[m[K’, declared with attribute warn_unused_result [-Wunused-result]
+                 scanf("%s", color);
+[01;32m[K                 ^[m[K
+[01m[K/home/zq610/WYZ/workspace/darknet_ws/src/darknet_ros/darknet/examples/go.c:1043:13:[m[K [01;35m[Kwarning: [m[Kignoring return value of ‘[01m[Kscanf[m[K’, declared with attribute warn_unused_result [-Wunused-result]
+             scanf("%s", type);
+[01;32m[K             ^[m[K
+[01m[K/home/zq610/WYZ/workspace/darknet_ws/src/darknet_ros/darknet/examples/go.c:1068:13:[m[K [01;35m[Kwarning: [m[Kignoring return value of ‘[01m[Kscanf[m[K’, declared with attribute warn_unused_result [-Wunused-result]
+             scanf("%s", type);
+[01;32m[K             ^[m[K
+In file included from [01m[K/home/zq610/WYZ/download/env/boost_1_58_0/boost/thread/thread.hpp:13:0[m[K,
+                 from [01m[K/home/zq610/WYZ/download/env/boost_1_58_0/boost/thread.hpp:13[m[K,
+                 from [01m[K/opt/ros/kinetic/include/actionlib/server/action_server.h:41[m[K,
+                 from [01m[K/opt/ros/kinetic/include/actionlib/server/simple_action_server.h:42[m[K,
+                 from [01m[K/home/zq610/WYZ/workspace/darknet_ws/src/darknet_ros/darknet_ros/include/darknet_ros/YoloObjectDetector.hpp:24[m[K,
+                 from [01m[K/home/zq610/WYZ/workspace/darknet_ws/src/darknet_ros/darknet_ros/src/YoloObjectDetector.cpp:10[m[K:
+[01m[K/home/zq610/WYZ/download/env/boost_1_58_0/boost/thread/detail/thread_group.hpp:[m[K In member function ‘[01m[Kboost::thread* boost::thread_group::create_thread(F)[m[K’:
+[01m[K/home/zq610/WYZ/download/env/boost_1_58_0/boost/thread/detail/thread_group.hpp:78:18:[m[K [01;35m[Kwarning: [m[K‘[01m[Ktemplate<class> class std::auto_ptr[m[K’ is deprecated [-Wdeprecated-declarations]
+             std::auto_ptr<thread> new_thread(new thread(threadfunc));
+[01;32m[K                  ^[m[K
+In file included from [01m[K/usr/include/c++/5/memory:81:0[m[K,
+                 from [01m[K/usr/include/c++/5/thread:40[m[K,
+                 from [01m[K/home/zq610/WYZ/workspace/darknet_ws/src/darknet_ros/darknet_ros/include/darknet_ros/YoloObjectDetector.hpp:17[m[K,
+                 from [01m[K/home/zq610/WYZ/workspace/darknet_ws/src/darknet_ros/darknet_ros/src/YoloObjectDetector.cpp:10[m[K:
+[01m[K/usr/include/c++/5/bits/unique_ptr.h:49:28:[m[K [01;36m[Knote: [m[Kdeclared here
+   template<typename> class auto_ptr;
+[01;32m[K                            ^[m[K
+In file included from [01m[K/home/zq610/WYZ/download/env/boost_1_58_0/boost/smart_ptr/shared_ptr.hpp:28:0[m[K,
+                 from [01m[K/home/zq610/WYZ/download/env/boost_1_58_0/boost/shared_ptr.hpp:17[m[K,
+                 from [01m[K/home/zq610/WYZ/download/env/boost_1_58_0/boost/format/alt_sstream.hpp:21[m[K,
+                 from [01m[K/home/zq610/WYZ/download/env/boost_1_58_0/boost/format/internals.hpp:23[m[K,
+                 from [01m[K/home/zq610/WYZ/download/env/boost_1_58_0/boost/format.hpp:38[m[K,
+                 from [01m[K/home/zq610/WYZ/download/env/boost_1_58_0/boost/math/policies/error_handling.hpp:31[m[K,
+                 from [01m[K/home/zq610/WYZ/download/env/boost_1_58_0/boost/math/special_functions/round.hpp:14[m[K,
+                 from [01m[K/opt/ros/kinetic/include/ros/time.h:58[m[K,
+                 from [01m[K/opt/ros/kinetic/include/ros/ros.h:38[m[K,
+                 from [01m[K/home/zq610/WYZ/workspace/darknet_ws/src/darknet_ros/darknet_ros/include/darknet_ros/YoloObjectDetector.hpp:21[m[K,
+                 from [01m[K/home/zq610/WYZ/workspace/darknet_ws/src/darknet_ros/darknet_ros/src/yolo_object_detector_node.cpp:9[m[K:
+[01m[K/home/zq610/WYZ/download/env/boost_1_58_0/boost/smart_ptr/detail/shared_count.hpp:395:33:[m[K [01;35m[Kwarning: [m[K‘[01m[Ktemplate<class> class std::auto_ptr[m[K’ is deprecated [-Wdeprecated-declarations]
+     explicit shared_count( std::auto_ptr<Y> & r ): pi_( new sp_counted_impl_p<Y>( r.get() ) )
+[01;32m[K                                 ^[m[K
+In file included from [01m[K/usr/include/c++/5/memory:81:0[m[K,
+                 from [01m[K/usr/include/c++/5/thread:40[m[K,
+                 from [01m[K/home/zq610/WYZ/workspace/darknet_ws/src/darknet_ros/darknet_ros/include/darknet_ros/YoloObjectDetector.hpp:17[m[K,
+                 from [01m[K/home/zq610/WYZ/workspace/darknet_ws/src/darknet_ros/darknet_ros/src/yolo_object_detector_node.cpp:9[m[K:
+[01m[K/usr/include/c++/5/bits/unique_ptr.h:49:28:[m[K [01;36m[Knote: [m[Kdeclared here
+   template<typename> class auto_ptr;
+[01;32m[K                            ^[m[K
+In file included from [01m[K/home/zq610/WYZ/download/env/boost_1_58_0/boost/shared_ptr.hpp:17:0[m[K,
+                 from [01m[K/home/zq610/WYZ/download/env/boost_1_58_0/boost/format/alt_sstream.hpp:21[m[K,
+                 from [01m[K/home/zq610/WYZ/download/env/boost_1_58_0/boost/format/internals.hpp:23[m[K,
+                 from [01m[K/home/zq610/WYZ/download/env/boost_1_58_0/boost/format.hpp:38[m[K,
+                 from [01m[K/home/zq610/WYZ/download/env/boost_1_58_0/boost/math/policies/error_handling.hpp:31[m[K,
+                 from [01m[K/home/zq610/WYZ/download/env/boost_1_58_0/boost/math/special_functions/round.hpp:14[m[K,
+                 from [01m[K/opt/ros/kinetic/include/ros/time.h:58[m[K,
+                 from [01m[K/opt/ros/kinetic/include/ros/ros.h:38[m[K,
+                 from [01m[K/home/zq610/WYZ/workspace/darknet_ws/src/darknet_ros/darknet_ros/include/darknet_ros/YoloObjectDetector.hpp:21[m[K,
+                 from [01m[K/home/zq610/WYZ/workspace/darknet_ws/src/darknet_ros/darknet_ros/src/yolo_object_detector_node.cpp:9[m[K:
+[01m[K/home/zq610/WYZ/download/env/boost_1_58_0/boost/smart_ptr/shared_ptr.hpp:242:65:[m[K [01;35m[Kwarning: [m[K‘[01m[Ktemplate<class> class std::auto_ptr[m[K’ is deprecated [-Wdeprecated-declarations]
+ template< class T, class R > struct sp_enable_if_auto_ptr< std::auto_ptr< T >, R >
+[01;32m[K                                                                 ^[m[K
+In file included from [01m[K/usr/include/c++/5/memory:81:0[m[K,
+                 from [01m[K/usr/include/c++/5/thread:40[m[K,
+                 from [01m[K/home/zq610/WYZ/workspace/darknet_ws/src/darknet_ros/darknet_ros/include/darknet_ros/YoloObjectDetector.hpp:17[m[K,
+                 from [01m[K/home/zq610/WYZ/workspace/darknet_ws/src/darknet_ros/darknet_ros/src/yolo_object_detector_node.cpp:9[m[K:
+[01m[K/usr/include/c++/5/bits/unique_ptr.h:49:28:[m[K [01;36m[Knote: [m[Kdeclared here
+   template<typename> class auto_ptr;
+[01;32m[K                            ^[m[K
+In file included from [01m[K/home/zq610/WYZ/download/env/boost_1_58_0/boost/shared_ptr.hpp:17:0[m[K,
+                 from [01m[K/home/zq610/WYZ/download/env/boost_1_58_0/boost/format/alt_sstream.hpp:21[m[K,
+                 from [01m[K/home/zq610/WYZ/download/env/boost_1_58_0/boost/format/internals.hpp:23[m[K,
+                 from [01m[K/home/zq610/WYZ/download/env/boost_1_58_0/boost/format.hpp:38[m[K,
+                 from [01m[K/home/zq610/WYZ/download/env/boost_1_58_0/boost/math/policies/error_handling.hpp:31[m[K,
+                 from [01m[K/home/zq610/WYZ/download/env/boost_1_58_0/boost/math/special_functions/round.hpp:14[m[K,
+                 from [01m[K/opt/ros/kinetic/include/ros/time.h:58[m[K,
+                 from [01m[K/opt/ros/kinetic/include/ros/ros.h:38[m[K,
+                 from [01m[K/home/zq610/WYZ/workspace/darknet_ws/src/darknet_ros/darknet_ros/include/darknet_ros/YoloObjectDetector.hpp:21[m[K,
+                 from [01m[K/home/zq610/WYZ/workspace/darknet_ws/src/darknet_ros/darknet_ros/src/yolo_object_detector_node.cpp:9[m[K:
+[01m[K/home/zq610/WYZ/download/env/boost_1_58_0/boost/smart_ptr/shared_ptr.hpp:441:31:[m[K [01;35m[Kwarning: [m[K‘[01m[Ktemplate<class> class std::auto_ptr[m[K’ is deprecated [-Wdeprecated-declarations]
+     explicit shared_ptr( std::auto_ptr<Y> & r ): px(r.get()), pn()
+[01;32m[K                               ^[m[K
+In file included from [01m[K/usr/include/c++/5/memory:81:0[m[K,
+                 from [01m[K/usr/include/c++/5/thread:40[m[K,
+                 from [01m[K/home/zq610/WYZ/workspace/darknet_ws/src/darknet_ros/darknet_ros/include/darknet_ros/YoloObjectDetector.hpp:17[m[K,
+                 from [01m[K/home/zq610/WYZ/workspace/darknet_ws/src/darknet_ros/darknet_ros/src/yolo_object_detector_node.cpp:9[m[K:
+[01m[K/usr/include/c++/5/bits/unique_ptr.h:49:28:[m[K [01;36m[Knote: [m[Kdeclared here
+   template<typename> class auto_ptr;
+[01;32m[K                            ^[m[K
+In file included from [01m[K/home/zq610/WYZ/download/env/boost_1_58_0/boost/shared_ptr.hpp:17:0[m[K,
+                 from [01m[K/home/zq610/WYZ/download/env/boost_1_58_0/boost/format/alt_sstream.hpp:21[m[K,
+                 from [01m[K/home/zq610/WYZ/download/env/boost_1_58_0/boost/format/internals.hpp:23[m[K,
+                 from [01m[K/home/zq610/WYZ/download/env/boost_1_58_0/boost/format.hpp:38[m[K,
+                 from [01m[K/home/zq610/WYZ/download/env/boost_1_58_0/boost/math/policies/error_handling.hpp:31[m[K,
+                 from [01m[K/home/zq610/WYZ/download/env/boost_1_58_0/boost/math/special_functions/round.hpp:14[m[K,
+                 from [01m[K/opt/ros/kinetic/include/ros/time.h:58[m[K,
+                 from [01m[K/opt/ros/kinetic/include/ros/ros.h:38[m[K,
+                 from [01m[K/home/zq610/WYZ/workspace/darknet_ws/src/darknet_ros/darknet_ros/include/darknet_ros/YoloObjectDetector.hpp:21[m[K,
+                 from [01m[K/home/zq610/WYZ/workspace/darknet_ws/src/darknet_ros/darknet_ros/src/yolo_object_detector_node.cpp:9[m[K:
+[01m[K/home/zq610/WYZ/download/env/boost_1_58_0/boost/smart_ptr/shared_ptr.hpp:454:22:[m[K [01;35m[Kwarning: [m[K‘[01m[Ktemplate<class> class std::auto_ptr[m[K’ is deprecated [-Wdeprecated-declarations]
+     shared_ptr( std::auto_ptr<Y> && r ): px(r.get()), pn()
+[01;32m[K                      ^[m[K
+In file included from [01m[K/usr/include/c++/5/memory:81:0[m[K,
+                 from [01m[K/usr/include/c++/5/thread:40[m[K,
+                 from [01m[K/home/zq610/WYZ/workspace/darknet_ws/src/darknet_ros/darknet_ros/include/darknet_ros/YoloObjectDetector.hpp:17[m[K,
+                 from [01m[K/home/zq610/WYZ/workspace/darknet_ws/src/darknet_ros/darknet_ros/src/yolo_object_detector_node.cpp:9[m[K:
+[01m[K/usr/include/c++/5/bits/unique_ptr.h:49:28:[m[K [01;36m[Knote: [m[Kdeclared here
+   template<typename> class auto_ptr;
+[01;32m[K                            ^[m[K
+In file included from [01m[K/home/zq610/WYZ/download/env/boost_1_58_0/boost/shared_ptr.hpp:17:0[m[K,
+                 from [01m[K/home/zq610/WYZ/download/env/boost_1_58_0/boost/format/alt_sstream.hpp:21[m[K,
+                 from [01m[K/home/zq610/WYZ/download/env/boost_1_58_0/boost/format/internals.hpp:23[m[K,
+                 from [01m[K/home/zq610/WYZ/download/env/boost_1_58_0/boost/format.hpp:38[m[K,
+                 from [01m[K/home/zq610/WYZ/download/env/boost_1_58_0/boost/math/policies/error_handling.hpp:31[m[K,
+                 from [01m[K/home/zq610/WYZ/download/env/boost_1_58_0/boost/math/special_functions/round.hpp:14[m[K,
+                 from [01m[K/opt/ros/kinetic/include/ros/time.h:58[m[K,
+                 from [01m[K/opt/ros/kinetic/include/ros/ros.h:38[m[K,
+                 from [01m[K/home/zq610/WYZ/workspace/darknet_ws/src/darknet_ros/darknet_ros/include/darknet_ros/YoloObjectDetector.hpp:21[m[K,
+                 from [01m[K/home/zq610/WYZ/workspace/darknet_ws/src/darknet_ros/darknet_ros/src/yolo_object_detector_node.cpp:9[m[K:
+[01m[K/home/zq610/WYZ/download/env/boost_1_58_0/boost/smart_ptr/shared_ptr.hpp:520:34:[m[K [01;35m[Kwarning: [m[K‘[01m[Ktemplate<class> class std::auto_ptr[m[K’ is deprecated [-Wdeprecated-declarations]
+     shared_ptr & operator=( std::auto_ptr<Y> & r )
+[01;32m[K                                  ^[m[K
+In file included from [01m[K/usr/include/c++/5/memory:81:0[m[K,
+                 from [01m[K/usr/include/c++/5/thread:40[m[K,
+                 from [01m[K/home/zq610/WYZ/workspace/darknet_ws/src/darknet_ros/darknet_ros/include/darknet_ros/YoloObjectDetector.hpp:17[m[K,
+                 from [01m[K/home/zq610/WYZ/workspace/darknet_ws/src/darknet_ros/darknet_ros/src/yolo_object_detector_node.cpp:9[m[K:
+[01m[K/usr/include/c++/5/bits/unique_ptr.h:49:28:[m[K [01;36m[Knote: [m[Kdeclared here
+   template<typename> class auto_ptr;
+[01;32m[K                            ^[m[K
+In file included from [01m[K/home/zq610/WYZ/download/env/boost_1_58_0/boost/shared_ptr.hpp:17:0[m[K,
+                 from [01m[K/home/zq610/WYZ/download/env/boost_1_58_0/boost/format/alt_sstream.hpp:21[m[K,
+                 from [01m[K/home/zq610/WYZ/download/env/boost_1_58_0/boost/format/internals.hpp:23[m[K,
+                 from [01m[K/home/zq610/WYZ/download/env/boost_1_58_0/boost/format.hpp:38[m[K,
+                 from [01m[K/home/zq610/WYZ/download/env/boost_1_58_0/boost/math/policies/error_handling.hpp:31[m[K,
+                 from [01m[K/home/zq610/WYZ/download/env/boost_1_58_0/boost/math/special_functions/round.hpp:14[m[K,
+                 from [01m[K/opt/ros/kinetic/include/ros/time.h:58[m[K,
+                 from [01m[K/opt/ros/kinetic/include/ros/ros.h:38[m[K,
+                 from [01m[K/home/zq610/WYZ/workspace/darknet_ws/src/darknet_ros/darknet_ros/include/darknet_ros/YoloObjectDetector.hpp:21[m[K,
+                 from [01m[K/home/zq610/WYZ/workspace/darknet_ws/src/darknet_ros/darknet_ros/src/yolo_object_detector_node.cpp:9[m[K:
+[01m[K/home/zq610/WYZ/download/env/boost_1_58_0/boost/smart_ptr/shared_ptr.hpp:529:34:[m[K [01;35m[Kwarning: [m[K‘[01m[Ktemplate<class> class std::auto_ptr[m[K’ is deprecated [-Wdeprecated-declarations]
+     shared_ptr & operator=( std::auto_ptr<Y> && r )
+[01;32m[K                                  ^[m[K
+In file included from [01m[K/usr/include/c++/5/memory:81:0[m[K,
+                 from [01m[K/usr/include/c++/5/thread:40[m[K,
+                 from [01m[K/home/zq610/WYZ/workspace/darknet_ws/src/darknet_ros/darknet_ros/include/darknet_ros/YoloObjectDetector.hpp:17[m[K,
+                 from [01m[K/home/zq610/WYZ/workspace/darknet_ws/src/darknet_ros/darknet_ros/src/yolo_object_detector_node.cpp:9[m[K:
+[01m[K/usr/include/c++/5/bits/unique_ptr.h:49:28:[m[K [01;36m[Knote: [m[Kdeclared here
+   template<typename> class auto_ptr;
+[01;32m[K                            ^[m[K
+In file included from [01m[K/home/zq610/WYZ/download/env/boost_1_58_0/boost/shared_ptr.hpp:17:0[m[K,
+                 from [01m[K/home/zq610/WYZ/download/env/boost_1_58_0/boost/format/alt_sstream.hpp:21[m[K,
+                 from [01m[K/home/zq610/WYZ/download/env/boost_1_58_0/boost/format/internals.hpp:23[m[K,
+                 from [01m[K/home/zq610/WYZ/download/env/boost_1_58_0/boost/format.hpp:38[m[K,
+                 from [01m[K/home/zq610/WYZ/download/env/boost_1_58_0/boost/math/policies/error_handling.hpp:31[m[K,
+                 from [01m[K/home/zq610/WYZ/download/env/boost_1_58_0/boost/math/special_functions/round.hpp:14[m[K,
+                 from [01m[K/opt/ros/kinetic/include/ros/time.h:58[m[K,
+                 from [01m[K/opt/ros/kinetic/include/ros/ros.h:38[m[K,
+                 from [01m[K/home/zq610/WYZ/workspace/darknet_ws/src/darknet_ros/darknet_ros/include/darknet_ros/YoloObjectDetector.hpp:21[m[K,
+                 from [01m[K/home/zq610/WYZ/workspace/darknet_ws/src/darknet_ros/darknet_ros/src/yolo_object_detector_node.cpp:9[m[K:
+[01m[K/home/zq610/WYZ/download/env/boost_1_58_0/boost/smart_ptr/shared_ptr.hpp:[m[K In member function ‘[01m[Kboost::shared_ptr<T>& boost::shared_ptr<T>::operator=(std::auto_ptr<_Up>&&)[m[K’:
+[01m[K/home/zq610/WYZ/download/env/boost_1_58_0/boost/smart_ptr/shared_ptr.hpp:531:38:[m[K [01;35m[Kwarning: [m[K‘[01m[Ktemplate<class> class std::auto_ptr[m[K’ is deprecated [-Wdeprecated-declarations]
+         this_type( static_cast< std::auto_ptr<Y> && >( r ) ).swap( *this );
+[01;32m[K                                      ^[m[K
+In file included from [01m[K/usr/include/c++/5/memory:81:0[m[K,
+                 from [01m[K/usr/include/c++/5/thread:40[m[K,
+                 from [01m[K/home/zq610/WYZ/workspace/darknet_ws/src/darknet_ros/darknet_ros/include/darknet_ros/YoloObjectDetector.hpp:17[m[K,
+                 from [01m[K/home/zq610/WYZ/workspace/darknet_ws/src/darknet_ros/darknet_ros/src/yolo_object_detector_node.cpp:9[m[K:
+[01m[K/usr/include/c++/5/bits/unique_ptr.h:49:28:[m[K [01;36m[Knote: [m[Kdeclared here
+   template<typename> class auto_ptr;
+[01;32m[K                            ^[m[K
+In file included from [01m[K/home/zq610/WYZ/download/env/boost_1_58_0/boost/bind/mem_fn.hpp:25:0[m[K,
+                 from [01m[K/home/zq610/WYZ/download/env/boost_1_58_0/boost/mem_fn.hpp:22[m[K,
+                 from [01m[K/home/zq610/WYZ/download/env/boost_1_58_0/boost/function/detail/prologue.hpp:18[m[K,
+                 from [01m[K/home/zq610/WYZ/download/env/boost_1_58_0/boost/function.hpp:24[m[K,
+                 from [01m[K/opt/ros/kinetic/include/ros/forwards.h:40[m[K,
+                 from [01m[K/opt/ros/kinetic/include/ros/common.h:37[m[K,
+                 from [01m[K/opt/ros/kinetic/include/ros/ros.h:43[m[K,
+                 from [01m[K/home/zq610/WYZ/workspace/darknet_ws/src/darknet_ros/darknet_ros/include/darknet_ros/YoloObjectDetector.hpp:21[m[K,
+                 from [01m[K/home/zq610/WYZ/workspace/darknet_ws/src/darknet_ros/darknet_ros/src/yolo_object_detector_node.cpp:9[m[K:
+[01m[K/home/zq610/WYZ/download/env/boost_1_58_0/boost/get_pointer.hpp:[m[K At global scope:
+[01m[K/home/zq610/WYZ/download/env/boost_1_58_0/boost/get_pointer.hpp:27:40:[m[K [01;35m[Kwarning: [m[K‘[01m[Ktemplate<class> class std::auto_ptr[m[K’ is deprecated [-Wdeprecated-declarations]
+ template<class T> T * get_pointer(std::auto_ptr<T> const& p)
+[01;32m[K                                        ^[m[K
+In file included from [01m[K/usr/include/c++/5/memory:81:0[m[K,
+                 from [01m[K/usr/include/c++/5/thread:40[m[K,
+                 from [01m[K/home/zq610/WYZ/workspace/darknet_ws/src/darknet_ros/darknet_ros/include/darknet_ros/YoloObjectDetector.hpp:17[m[K,
+                 from [01m[K/home/zq610/WYZ/workspace/darknet_ws/src/darknet_ros/darknet_ros/src/yolo_object_detector_node.cpp:9[m[K:
+[01m[K/usr/include/c++/5/bits/unique_ptr.h:49:28:[m[K [01;36m[Knote: [m[Kdeclared here
+   template<typename> class auto_ptr;
+[01;32m[K                            ^[m[K
+In file included from [01m[K/home/zq610/WYZ/download/env/boost_1_58_0/boost/thread/thread.hpp:13:0[m[K,
+                 from [01m[K/home/zq610/WYZ/download/env/boost_1_58_0/boost/thread.hpp:13[m[K,
+                 from [01m[K/opt/ros/kinetic/include/actionlib/server/action_server.h:41[m[K,
+                 from [01m[K/opt/ros/kinetic/include/actionlib/server/simple_action_server.h:42[m[K,
+                 from [01m[K/home/zq610/WYZ/workspace/darknet_ws/src/darknet_ros/darknet_ros/include/darknet_ros/YoloObjectDetector.hpp:24[m[K,
+                 from [01m[K/home/zq610/WYZ/workspace/darknet_ws/src/darknet_ros/darknet_ros/src/yolo_object_detector_node.cpp:9[m[K:
+[01m[K/home/zq610/WYZ/download/env/boost_1_58_0/boost/thread/detail/thread_group.hpp:[m[K In member function ‘[01m[Kboost::thread* boost::thread_group::create_thread(F)[m[K’:
+[01m[K/home/zq610/WYZ/download/env/boost_1_58_0/boost/thread/detail/thread_group.hpp:78:18:[m[K [01;35m[Kwarning: [m[K‘[01m[Ktemplate<class> class std::auto_ptr[m[K’ is deprecated [-Wdeprecated-declarations]
+             std::auto_ptr<thread> new_thread(new thread(threadfunc));
+[01;32m[K                  ^[m[K
+In file included from [01m[K/usr/include/c++/5/memory:81:0[m[K,
+                 from [01m[K/usr/include/c++/5/thread:40[m[K,
+                 from [01m[K/home/zq610/WYZ/workspace/darknet_ws/src/darknet_ros/darknet_ros/include/darknet_ros/YoloObjectDetector.hpp:17[m[K,
+                 from [01m[K/home/zq610/WYZ/workspace/darknet_ws/src/darknet_ros/darknet_ros/src/yolo_object_detector_node.cpp:9[m[K:
+[01m[K/usr/include/c++/5/bits/unique_ptr.h:49:28:[m[K [01;36m[Knote: [m[Kdeclared here
+   template<typename> class auto_ptr;
+[01;32m[K                            ^[m[K

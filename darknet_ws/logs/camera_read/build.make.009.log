@@ -1,0 +1,8 @@
+[35m[1mScanning dependencies of target test_image_publisher[0m
+[35m[1mScanning dependencies of target test_image_subscriber[0m
+[ 25%] [32mBuilding CXX object CMakeFiles/test_image_publisher.dir/src/test_image_publisher.cpp.o[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/test_image_subscriber.dir/src/test_image_subscriber.cpp.o[0m
+[ 75%] [32m[1mLinking CXX executable /home/zq610/WYZ/workspace/darknet_ws/devel/.private/camera_read/lib/camera_read/test_image_publisher[0m
+[100%] [32m[1mLinking CXX executable /home/zq610/WYZ/workspace/darknet_ws/devel/.private/camera_read/lib/camera_read/test_image_subscriber[0m
+[100%] Built target test_image_publisher
+[100%] Built target test_image_subscriber

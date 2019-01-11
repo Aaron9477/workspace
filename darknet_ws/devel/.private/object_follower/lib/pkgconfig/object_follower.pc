@@ -1,0 +1,8 @@
+prefix=/home/zq610/WYZ/workspace/darknet_ws/devel/.private/object_follower
+
+Name: object_follower
+Description: Description of object_follower
+Version: 0.0.0
+Cflags: 
+Libs: -L/home/zq610/WYZ/workspace/darknet_ws/devel/.private/object_follower/lib 
+Requires: 

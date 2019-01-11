@@ -1,0 +1,8 @@
+Symlinking /home/zq610/WYZ/workspace/darknet_ws/devel/share/darknet_ros/cmake/darknet_rosConfig-version.cmake
+Symlinking /home/zq610/WYZ/workspace/darknet_ws/devel/share/darknet_ros/cmake/darknet_rosConfig.cmake
+Symlinking /home/zq610/WYZ/workspace/darknet_ws/devel/lib/libdarknet_ros_lib.so
+Symlinking /home/zq610/WYZ/workspace/darknet_ws/devel/lib/pkgconfig/darknet_ros.pc
+Symlinking /home/zq610/WYZ/workspace/darknet_ws/devel/lib/darknet_ros/darknet_ros
+Cleaning: (/home/zq610/WYZ/workspace/darknet_ws/devel/.private/darknet_ros/lib/darknet_ros/darknet_ros_object_detection-test, /home/zq610/WYZ/workspace/darknet_ws/devel/lib/darknet_ros/darknet_ros_object_detection-test)
+Unlinking: /home/zq610/WYZ/workspace/darknet_ws/devel/lib/darknet_ros/darknet_ros_object_detection-test
+Already unlinked: {}

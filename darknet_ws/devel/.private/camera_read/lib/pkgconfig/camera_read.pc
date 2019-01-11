@@ -1,0 +1,8 @@
+prefix=/home/zq610/WYZ/workspace/darknet_ws/devel/.private/camera_read
+
+Name: camera_read
+Description: Description of camera_read
+Version: 0.0.0
+Cflags: 
+Libs: -L/home/zq610/WYZ/workspace/darknet_ws/devel/.private/camera_read/lib 
+Requires: 

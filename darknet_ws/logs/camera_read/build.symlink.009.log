@@ -1,0 +1,5 @@
+Symlinking /home/zq610/WYZ/workspace/darknet_ws/devel/share/camera_read/cmake/camera_readConfig-version.cmake
+Symlinking /home/zq610/WYZ/workspace/darknet_ws/devel/share/camera_read/cmake/camera_readConfig.cmake
+Symlinking /home/zq610/WYZ/workspace/darknet_ws/devel/lib/pkgconfig/camera_read.pc
+Symlinking /home/zq610/WYZ/workspace/darknet_ws/devel/lib/camera_read/test_image_publisher
+Symlinking /home/zq610/WYZ/workspace/darknet_ws/devel/lib/camera_read/test_image_subscriber

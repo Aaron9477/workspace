@@ -1,0 +1,8 @@
+prefix=/home/zq610/WYZ/workspace/darknet_ws/devel/.private/pc_show
+
+Name: pc_show
+Description: Description of pc_show
+Version: 0.0.0
+Cflags: 
+Libs: -L/home/zq610/WYZ/workspace/darknet_ws/devel/.private/pc_show/lib 
+Requires: 
