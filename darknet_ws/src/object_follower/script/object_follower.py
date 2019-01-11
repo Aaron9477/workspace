@@ -48,12 +48,15 @@ class ObjectFollower():
         
         self.scale_roi = rospy.get_param("~scale_roi", 0.8)
         self.max_linear_speed = rospy.get_param("~max_linear_speed", 0.4)
+        # the lowest speed set as 0, because I want to make speed increase with steps
         self.min_linear_speed = rospy.get_param("~min_linear_speed", 0)
         self.max_rotation_speed = rospy.get_param("~max_rotation_speed", 1.5)
         self.min_rotation_speed = rospy.get_param("~min_rotation_speed", 0.5)
 
         # the percent of shifting
         self.x_threshold = rospy.get_param("~x_threshold", 0.2)
+        # if move, it will go to in the goal_z_threshold
+        # if it stops, it will move if the diff lager than move_z_threshold 
         self.goal_z_threshold = rospy.get_param("~z_threshold", 0.07)
         self.move_z_threshold = rospy.get_param("~z_threshold", 0.15)
         self.move_z_flag = True
@@ -68,7 +71,7 @@ class ObjectFollower():
         # self.gain = rospy.get_param("~gain", 2.0)
         # self.slow_down_factor = rospy.get_param("~slow_down_factor", 0.8)
         
-	self.last_linear_speed = 0
+	    self.last_linear_speed = 0
         self.roi = BoundingBoxes()
 
         self.cmd_vel_pub = rospy.Publisher('/cmd_vel_mux/input/teleop', Twist, queue_size=1)
@@ -193,6 +196,7 @@ class ObjectFollower():
                     n_z = sum_z = mean_z = 0
 
                     # Get the average depth value over the ROI
+                    # only use 7 points to reduce the calculation complexity
                     if scaled_max_x-scaled_min_x >= 7 and scaled_max_y-scaled_min_y >= 7:
                         for x in range(scaled_min_x, scaled_max_x, int((scaled_max_x-scaled_min_x)/7)):
                             for y in range(scaled_min_y, scaled_max_y, int((scaled_max_x-scaled_min_x)/7)):
@@ -250,7 +254,7 @@ class ObjectFollower():
                             if abs(mean_z - self.goal_z) > self.move_z_threshold or self.move_z_flag == True:
                                 self.move_z_flag = True
                                 target_speed = (mean_z - self.goal_z) * self.z_scale
-				# the speed should be changed slowly
+				                # the speed should be changed slowly
                                 if abs(target_speed - self.last_linear_speed) < 0.1:
                                     speed = (self.last_linear_speed + 0.02) if target_speed > self.last_linear_speed else (self.last_linear_speed - 0.02)
                                 else:
