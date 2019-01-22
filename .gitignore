@@ -2,5 +2,6 @@
 */devel/include/
 */devel/lib/
 */devel/share/
+*.log
 README.txt
 
